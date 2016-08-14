@@ -20,7 +20,7 @@ class SampleApp1 extends Component<any, any> {
           To get started, edit index.android.js
         </Text>
         <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
+          Double tap R on your keyboard to reload,{"\n"}
           Shake or press menu button for dev menu
         </Text>
       </View>
@@ -31,22 +31,22 @@ class SampleApp1 extends Component<any, any> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F5FCFF",
   } as __React.ViewStyle,
 
   welcome: {
     fontSize: 20,
-    textAlign: 'center',
+    textAlign: "center",
     margin: 10,
   } as __React.TextStyle,
 
   instructions: {
-    textAlign: 'center',
-    color: '#333333',
+    textAlign: "center",
+    color: "#333333",
     marginBottom: 5,
   } as __React.TextStyle,
 });
 
-AppRegistry.registerComponent('SampleApp1', () => SampleApp1);
+AppRegistry.registerComponent("SampleApp1", () => SampleApp1);
