@@ -1,11 +1,19 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es5",
+        "target": "es6",
+        "jsx": "react",
+        "outDir": "artifacts",
         "noImplicitAny": false,
         "sourceMap": false
     },
+    "filesGlob": [
+        "typings/index.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "artifacts"
     ]
 }
