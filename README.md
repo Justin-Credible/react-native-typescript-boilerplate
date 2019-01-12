@@ -1,5 +1,7 @@
 # react-native-typescript-boilerplate
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 This repository contains an example of how to use TypeScript with React Native.
 
 An accompanying blog post can be found [here](http://www.justin-credible.net/2016/08/23/using-typescript-with-react-native/).
